@@ -15,6 +15,7 @@ public class six{
         
         if (divisor == 0) {
             System.out.println("Cannot divide by zero. Please enter a non-zero divisor.");
+             scanner.close();
             return;
         }
 
